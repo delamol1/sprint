@@ -1,19 +1,30 @@
+
+
 body {
-  max-width: 1370px;
-  margin: auto;
-  padding:0;
-  color:#314a5b;
-
-
+margin:0;
+padding:0;
+width:1370px;
+color:#314a5b;
+  
 }
 
-header {
-  position:relative;
-  background-image: url("img/background.png");
-  background-repeat: no-repeat;
-  background-size: 1370px 1057px;
-  height:1057px;
+.header {
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
   width:1370px;
+  height:1057px; /* Современные браузеры */
+  background-repeat: no-repeat;
+  background:url(img/background.png);
+}
+
+main {
+  margin-left:150px;
+  
+  position:relative;
+  height:1210px;
+  width:1370px;
+
 }
 
 .bluedot {
@@ -163,34 +174,34 @@ display:flex;
   padding-right:10px;
 }
 
-main {
-  margin-left:250px;
-  margin-right:220px;
-  position:relative;
-  height:700px;
-}
-
-
 .title{
   /* Style for "portfolio." */
-  position:absolute;
-  top:300px;
-  right:100px;
+  
+  
   color: #314a5b;
   font-family: Montserrat;
   font-size: 32px;
   font-weight: 700;
   text-transform: uppercase;
 }
-.macbook{
-  position:absolute; 
-  top:300px;
+
+.portfolio{
+  height:800px;
+  }
+.mactext{
+  width:400px;
+  display:inline-block;
 }
 
+.macbook{
+  display:inline-block;
+  width:320px;
+}
+
+}
 .team {
-  position:absolute;
-  top:390px;
-  right:55px;
+ 
+  
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
@@ -206,9 +217,7 @@ main {
 }
 
 .text{
-  position:absolute;
-  top:450px;
-  right:10px;
+  
 }
 
 .text p {
@@ -221,8 +230,7 @@ main {
 }
 
 .guys {
-  margin-left:250px;
-  margin-right:220px;
+  
   height:400px;
 }
 
@@ -279,10 +287,10 @@ font-weight: 400;
 }
 
 footer{
-  margin-left:250px;
-  margin-right:220px;
+  width:1250px;
   height:52px;
   border-top: 1px solid#b9c0c6;
+  margin-left:100px;
 }
 
 footer p{
@@ -302,7 +310,7 @@ font-weight: 400;
 .footersocial li{
   display:inline-block;
   list-style-type: none;
-  padding-right:15px;
+  padding-right:10px;
   }
 
 .footersocial a{
