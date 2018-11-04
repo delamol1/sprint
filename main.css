@@ -16,6 +16,10 @@ header {
   width:1370px;
 }
 
+.bluedot {
+  color:#314a5b;
+}
+
 .logo{
   position:absolute;
   left:220px;
@@ -119,9 +123,7 @@ display:flex;
 }
 
 .content{
-  margin-top:50px;
-  
-  
+  margin-top:50px; 
 }
 
 .advantages{
@@ -165,6 +167,7 @@ main {
   margin-left:250px;
   margin-right:220px;
   position:relative;
+  height:700px;
 }
 
 
@@ -200,13 +203,12 @@ main {
   color: #314a5b;
   font-family: "Open Sans";
   font-size: 24px;
-  
 }
 
 .text{
   position:absolute;
   top:450px;
-  right:10px
+  right:10px;
 }
 
 .text p {
@@ -216,6 +218,94 @@ main {
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
-  
 }
+
+.guys {
+  margin-left:250px;
+  margin-right:220px;
+  height:400px;
+}
+
+.guys h2{
+  /* Style for "our team." */
+color: #314a5b;
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.guys h3{
+  /* Style for "They are b" */
+
+color: #9aa0ab;
+font-family: "Open Sans";
+font-size: 16px;
+font-weight: 400;
+
+}
+
+.person {
+  display:inline-block;
+}
+
+.info {
+  float:right;
+  width:170px;
+  padding-left:5px;
+}
+
+.info p{
+/* Style for "Coffee lov" */
+width: 134px;
+color: #9aa0ab;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 400;
+
+}
+
+.info h3{
+  /* Style for "Web develo" */
+width: 99px;
+color: #f0454c;
+font-family: "Open Sans";
+font-size: 12px;
+font-weight: 400;
+}
+
+.person img {
+  padding-top:20px;
+}
+
+footer{
+  margin-left:250px;
+  margin-right:220px;
+  height:52px;
+  border-top: 1px solid#b9c0c6;
+}
+
+footer p{
+  float:right;
+  /* Style for "© Freelanc" */
+height: 14px;
+color: #b9c0c6;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+}
+
+.footersocial{
+  display:inline-block;
+}
+
+.footersocial li{
+  display:inline-block;
+  list-style-type: none;
+  padding-right:15px;
+  }
+
+.footersocial a{
+    text-decoration: none;
+    }
 
