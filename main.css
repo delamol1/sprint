@@ -1,27 +1,24 @@
-
+*{
+  ;margin:auto;
+}
 
 body {
-margin:0;
-padding:0;
-width:1370px;
 color:#314a5b;
+
   
 }
 
 .header {
-  -moz-background-size: 100%; /* Firefox 3.6+ */
-  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-  -o-background-size: 100%; /* Opera 9.6+ */
   width:1370px;
-  height:1057px; /* Современные браузеры */
-  background-repeat: no-repeat;
+  height:1057px; 
   background:url(img/background.png);
+  position:relative;
 }
 
 main {
-  margin-left:150px;
   
-  position:relative;
+  
+  
   height:1210px;
   width:1370px;
 
@@ -134,12 +131,14 @@ display:flex;
 }
 
 .content{
-  margin-top:50px; 
+  margin-top:50px;
+  margin-bottom:50px;
 }
 
 .advantages{
   padding-right:10px;
   width:256px;
+  margin-left:0;
 }
 
 .advantages h2{
@@ -152,6 +151,8 @@ display:flex;
   font-weight: 700;
   line-height: 26px;
   text-transform: uppercase;
+  margin-left:0;
+  padding-bottom:10px;
 }
 
 .advantages p {
@@ -171,7 +172,7 @@ display:flex;
   font-weight: 400;
   line-height: 20px;
   text-transform: uppercase;
-  padding-right:10px;
+  padding-right:15px;
 }
 
 .title{
@@ -181,31 +182,33 @@ display:flex;
   color: #314a5b;
   font-family: Montserrat;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
 .portfolio{
-  height:800px;
+  height:1000px;
+  
   }
 .mactext{
-  width:400px;
+  margin-top:20px;
   display:inline-block;
+  
 }
 
 .macbook{
   display:inline-block;
-  width:320px;
+  float:left;
 }
 
-}
+
 .team {
  
   
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  
 }
 
 .team h3{
@@ -216,9 +219,7 @@ display:flex;
   font-size: 24px;
 }
 
-.text{
-  
-}
+
 
 .text p {
   /* Style for "No more pr" */
@@ -230,7 +231,7 @@ display:flex;
 }
 
 .guys {
-  
+  margin-top:150px;
   height:400px;
 }
 
@@ -260,7 +261,8 @@ font-weight: 400;
 .info {
   float:right;
   width:170px;
-  padding-left:5px;
+  padding-left:25px;
+  padding-top:20px;
 }
 
 .info p{
@@ -270,6 +272,7 @@ color: #9aa0ab;
 font-family: "Open Sans";
 font-size: 12px;
 font-weight: 400;
+margin-left:0;
 
 }
 
@@ -280,6 +283,7 @@ color: #f0454c;
 font-family: "Open Sans";
 font-size: 12px;
 font-weight: 400;
+margin-left:0;
 }
 
 .person img {
@@ -287,12 +291,11 @@ font-weight: 400;
 }
 
 footer{
-  width:1250px;
+ 
   height:52px;
   border-top: 1px solid#b9c0c6;
-  margin-left:100px;
+  width:1370px;
 }
-
 footer p{
   float:right;
   /* Style for "© Freelanc" */
@@ -301,16 +304,19 @@ color: #b9c0c6;
 font-family: "Open Sans";
 font-size: 13px;
 font-weight: 400;
+padding:10px;
 }
 
 .footersocial{
   display:inline-block;
+  float:left;
 }
 
-.footersocial li{
+.footersocial ul li{
   display:inline-block;
   list-style-type: none;
-  padding-right:10px;
+  padding:15px;
+  
   }
 
 .footersocial a{
